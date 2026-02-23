@@ -1,10 +1,8 @@
 def lt():
-    sp=[
-        "LT01"="Laptop Gaming Acer Nitro 5",
-        "LT02"="Laptop Asus TUF FX506",
-        "LT03"="Laptop Dell Inspiron 15",
-        "LT04"="Laptop HP Pavilion 14"
-    ]
+    LT01="Laptop Gaming Acer Nitro 5"
+    LT02="Laptop Asus TUF FX506"
+    LT03="Laptop Dell Inspiron 15"
+    LT04="Laptop HP Pavilion 14"
     th1="Acer"
     th2="Asus"
     th3="Dell"
@@ -71,9 +69,6 @@ def lt():
                 else:
                     print("Mã sản phẩm không tồn tại")
                     print("----------")
-        elif a==2:
-            spm=input("Nhập sản phẩm mới:")
-            sp.append(spm)
         elif a==0:
             print("Thoát Menu. Tạm biệt!")
             break
