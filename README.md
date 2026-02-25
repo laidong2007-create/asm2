@@ -69,9 +69,14 @@ def lt():
                 else:
                     print("Mã sản phẩm không tồn tại")
                     print("----------")
+        elif a==2:
+            spm=input("Nhập sản phẩm mới:")
+            sp.append(spm)
         elif a==0:
             print("Thoát Menu. Tạm biệt!")
             break
         else:
             print("Lựa chọn không hợp lệ. Vui lòng nhập lại")
 lt()
+
+
